@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lest's start again</title>
+        <link rel="stylesheet"  href="style.css" type="text/css"/>
+        <link rel="preconnect" href="httpts://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    </head>
+    <body>
+        <section class=" sub-header">
+            <nav>
+                <a href="index.html"><img src="images\second.jpg"></a>
+                <div class="nav-links" id= navLinks>
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="course.html">BLOGS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+            </nav>
+     <h1> Contact us</h1>
+        </section>
+        <!--------------------contact us content--------------------->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7301.417607638998!2d85.57122237437582!3d23.793381638272628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f48a273c22acfd%3A0x9683152ce88672ed!2sGhatotand%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1626248995699!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        </section>
+        <section class="contact-us"> 
+            <div class="row">
+                <div class="contact-col">
+                    
+                       <p> We have the ability from day one to create an experience that touches at the hearts and minds of the people we connect with.
+You are here because you have something to say.
+You know you have something valuable to share and you have only barely begun to unleash your reative potential.
+As I always say I believe in uniqueness. Lets share our uniqueness.So I woud love to explore unique minds.
+<br><br>
+So, feel free to contact me. Share me your thoughts, your perceptions. Write me your own thoughts, I would love to read them.
+</p>
+<BR> <BR>
+    <div>
+                    <i class=" fa fa-home"></i>
+                    <span>
+                        <h5>SF/AA-3 HOUSING COMPLEC</h5>
+                        <P>GhATOTAND, JHARKHAND</P>
+                    </span>
+                </div>
+                <div>
+                    
+                    <i class=" fa fa-phone"></i>
+                    <span>
+                        <h5>+91 7667540567</h5>
+                        <P>Monday to Saturday, 10 Am to 6 Pm</P>
+                    </span>
+                </div>
+                <div>
+                    
+                    <i class=" fa fa-envelope-o"></i>
+                    <span>
+                        <h5>tanyajha0108@gmail.com</h5>
+                        <P>Email us your query</P>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea  rows="8" name="message" placeholder="Message" required></textarea>
+               <button type="submit" class="hero-btn red-btn">Send message</button>
+            </form>
+
+
+            </div>
+        </div>
+        </section>
+
+<!---------------Footer-------------------------->
+<section class="footer">
+    <h4> Connect with me</h4>
+    <p>
+        Feel free to talk, share or discuss your views
+        <br>
+        Everyone is unique, and let's share our uniqueness
+    </p>
+<div class="icons">
+    <i class=" fa fa-facebook"></i>
+    <i class=" fa fa-twitter"></i>
+    <i class=" fa fa-instagram"></i>
+    <i class=" fa fa-linkedin"></i>
+   
+</div>
+</section>
+
+
+
+        <!------------------------------JAVA SCRIPT FOR TOGGLE MENU-----------------------------  -->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+            
+        </script>
+       
+    </body>
+</html>
